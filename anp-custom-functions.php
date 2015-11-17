@@ -11,6 +11,7 @@
 
 /*
 Plugin Name: Activist Network Custom Functions
+Plugin URI: https://github.com/glocalcoop/anp-custom-functions
 Description: Creates custom functions and shortcodes.
 Author: Pea, Glocal
 Author URI: http://glocal.coop
@@ -42,7 +43,7 @@ if ( !defined( 'ANP_CUSTOM_FUNC_PLUGIN_URL' ) ) {
  * ---------------------------------- */
 
 include_once( ANP_CUSTOM_FUNC_PLUGIN_DIR . 'inc/custom-shortcodes.php' );
-include_once( ANP_CUSTOM_FUNC_PLUGIN_DIR . 'inc/custom-handbook.php' );
+//include_once( ANP_CUSTOM_FUNC_PLUGIN_DIR . 'inc/custom-handbook.php' );
 
 
 ?>
